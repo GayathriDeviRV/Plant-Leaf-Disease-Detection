@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/static/bg.png"); /* Direct path to static folder */
+    background-size: cover; /* Cover the whole page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repetition */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px; /* Limit container width */
+    width: 90%; /* Make container responsive */
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+input[type="file"] {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2, h3, h4 {
+    margin: 0.5rem 0;
+}
+
+/* Image styling */
+img {
+    margin-top: 1rem;
+    max-width: 100%; 
+    max-height: 500px; 
+    width: auto;     
+    height: auto;   
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
