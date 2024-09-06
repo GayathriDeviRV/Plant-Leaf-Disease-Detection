@@ -25,16 +25,15 @@ The dataset is divided into training, testing, and validation sets. You can expl
 
 ## Required libraries:
 
-Flask
-TensorFlow
-NumPy
-Pillow
+- Flask
+- TensorFlow
+- NumPy
 
-Project Structure
+## Project Structure
 - app.py: The Flask backend, handling image uploads, model predictions, and serving the results.
 - index.html: The frontend interface where users upload images and view predictions.
 - styles.css: Styling for the web page.
-- model/best_model.keras: The pre-trained machine learning model for disease prediction.
+- model/best_model.keras: The saved model for disease prediction.
 - uploads/: Directory to store user-uploaded leaf images.
 
 
@@ -51,6 +50,9 @@ Open your browser and navigate to:
 http://127.0.0.1:5000/
 
 Upload a leaf image, and the app will return a prediction and confidence level, along with diagnostic suggestions.
+
+![Output](https://example.com/leaf_example.jpg)
+
 
 ## Model and Training Details
 The model used for prediction is based on MobileNetV2, a lightweight convolutional neural network. It has been trained on the aforementioned dataset using the following three classes:
