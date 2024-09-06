@@ -51,7 +51,7 @@ http://127.0.0.1:5000/
 
 Upload a leaf image, and the app will return a prediction and confidence level, along with diagnostic suggestions.
 
-![Output](https://example.com/leaf_example.jpg)
+![Output](images/ss1.jpeg)
 
 
 ## Model and Training Details
